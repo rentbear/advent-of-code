@@ -23,38 +23,38 @@ for (let i in file){
 switch(file[i]){
     case ('A Z'):
         console.log(i);
-        total += 7;
+        total += 3;
     case ('A X'):
         console.log(i);
-        total += 3;
+        total += 4;
         break;
     case 'C X':
         console.log(i);
-        total += 0;
+        total += 7;
         break;
     case 'B X':
         console.log(i);
-        total += 8;
+        total +=1;
         break;
     case 'A Y':
         console.log(i);
-        total -= 2;
+        total +=8;
         break;
     case 'C Z':
         console.log(i);
-        total += 3;
+        total += 6;
         break;
     case 'B Z':
         console.log(i);
-        total -= 1;
+        total +=3;
         break;
     case 'C Y':
         console.log(i);
-        total += 9;
+        total +=2;
         break;
     case 'B Y':
         console.log(i);
-        total += 3;
+        total += 5;
         break;
     default:
         break;
@@ -70,15 +70,3 @@ if (total > 0){
 } else{
     console.log('Fix your code.');
 }
-    // A Rock 
-    // B Paper
-    // C Scissors
-    // X Rock
-    // Y Paper
-    // Z Scissors
-    // 1 Rock
-    // 2 Paper
-    // 3 Scissors
-    // 0 Win
-    // 3 Draw
-    // 6 Win
